@@ -550,3 +550,31 @@ button {
   height: 127px;
   width: 127px;
 }
+
+.social {
+  margin-top: 300px;
+  text-align: center;
+}
+
+
+
+.social li {
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 20px;
+  margin-right: 30px;
+
+}
+
+.social i {
+  padding-top: 8px;
+}
+
+.social h5 {
+    border-top: solid grey 1px;
+    padding-top: 20px;
+
+}
