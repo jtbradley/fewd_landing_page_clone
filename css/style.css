@@ -437,25 +437,27 @@ th {
 
 
 body {
-    background-color: LightGray;
+    background-color: white;
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+
 }
-div {
-    border: 1px solid Chocolate;
-}
+
 
 .top-navigation {
     background-color: #fff;
     position: fixed;
     width: 100%;
+    height: 71px;
     z-index: 9999;
 }
 
 .content {
     padding: 0px 15px;
     width: 970px;
-    height: 70px;
-    margin: 0 auto; 
+    margin: 0 auto;
+
 }
 
 
@@ -466,7 +468,6 @@ div {
     font-size: 16px;
     margin-top: 25px;
     letter-spacing: 0.03em;
-    -webkit-font-smoothing: antialiased;
 }
 .top-navigation .links li {
     display: inline-block;
@@ -540,10 +541,14 @@ button {
     width: 33.3333333%;
     display: inline-block;
     /* styles to assist with debugging */
-    border: 1px solid black;
     box-sizing: border-box;
     height: 225px;
     text-align: center;
+}
+
+.cases .content {
+  text-align: center;
+  margin-top: 100px;
 }
 
 .devices img {
@@ -552,8 +557,9 @@ button {
 }
 
 .social {
-  margin-top: 300px;
+  margin-top: 80px;
   text-align: center;
+
 }
 
 
@@ -565,7 +571,7 @@ button {
   border: 1px solid black;
   text-align: center;
   border-radius: 20px;
-  margin-right: 30px;
+  margin-right: 35px;
 
 }
 
@@ -582,4 +588,6 @@ ul {
   margin-bottom: 100px;
 }
 
-}
+
+
+
