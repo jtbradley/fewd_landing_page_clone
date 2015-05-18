@@ -576,5 +576,10 @@ button {
 .social h5 {
     border-top: solid grey 1px;
     padding-top: 20px;
+}
+
+ul {
+  margin-bottom: 100px;
+}
 
 }
